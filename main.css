@@ -298,4 +298,126 @@ body {
     font-weight: normal;
     font-size: 1rem;
     position: relative;
+    background: rgba(77, 105, 255, 0.2);
+}
+
+.container {
+    width: 100%;
+    max-width: calc(1162px + (15px * 2));
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.hero {
+    max-width: 1220px;
+    width: 100%;
+    margin: auto;
+}
+
+.container--hero{
+    max-width: calc(1220px + (15px * 2));
+}
+
+.hero__inner {
+    background: #4D69FF;
+    border-radius: 0px 0px 0px 24px;
+    padding-top: 38px;
+    padding-left: 32px;
+    height: 424px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero__title {
+    font-size: 60px;
+}
+
+.hero__desc {
+    font-size: 34px;
+    margin-bottom: 24px;
+}
+
+.hero__img {
+    width: 100%;
+    max-width: 550px;
+    background: #000;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+
+}
+
+.hero__img img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.portf{
+    margin-top: 86px;
+    padding-bottom: 100px;
+}
+
+.portf__title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 65px;
+    color: #000;
+}
+
+.card{
+    background: #fff;
+    max-width: 368px;
+    height: 532px;
+    border-radius: 25px;
+    color: #000;
+    margin-right: 30px;
+        margin-right: 44px;
+
+}
+
+.card:nth-child(3n){
+    margin-right: 0;
+}
+
+.portf__cards{
+    display: flex;
+}
+
+.card__img{
+    /* background: url(Без названия.png),
+    url(ZdbzVP71zR8.jpg); */
+    mix-blend-mode: normal;
+    border-radius: 25px 25px 25px 0px;
+    height: 286px;
+    width: 100%;
+        background: #4D69FF;
+}
+
+.card__text{
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-right: 32px;
+    position: relative;
+}
+
+.card__title{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.card__desc{
+    font-size: 18px;
+    line-height: 175%;
 }
