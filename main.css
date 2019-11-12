@@ -404,7 +404,7 @@ body {
 .portf__cards{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1028px;
+    max-width: 1162px;
     margin: auto;
     align-items: flex-start;
 }
